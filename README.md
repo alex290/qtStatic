@@ -1,4 +1,4 @@
-# Статическая сборка QT 5.15.2 MinGWx64
+# Статическая сборка QT 5.15.1 MinGWx64
 
 Для начала нужно поставить именно Online установку для дополнительных инструментов.
 
@@ -18,7 +18,7 @@
 
 Переходим него и начинаем
 
-`configure -static -debug-and-release -platform win32-g++ -qt-zlib -qt-pcre -qt-libpng -qt-tiff -qt-libjpeg -qt-freetype -opengl desktop -no-angle -sql-sqlite -openssl -I d:\Qt\Tools\OpenSSL\Win_x64\include -L d:\Qt\Tools\OpenSSL\Win_x64\lib  -opensource -confirm-license -make libs -make tools -nomake examples -nomake tests -prefix c:\Qt\5.15.2\mingw81_64_static`
+`configure -static -debug-and-release -platform win32-g++ -qt-zlib -qt-pcre -qt-libpng -qt-tiff -qt-libjpeg -qt-freetype -opengl desktop -no-angle -sql-sqlite -openssl -I d:\Qt\Tools\OpenSSL\Win_x64\include -L d:\Qt\Tools\OpenSSL\Win_x64\lib  -opensource -confirm-license -make libs -make tools -nomake examples -nomake tests -prefix c:\Qt\5.15.1\mingw81_64_static`
 
 `mingw32-make -k -j4`
 
