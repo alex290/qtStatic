@@ -26,4 +26,10 @@
 
 И чтоб отлучить об зависимостей MinGW в проект добавляем
 
+#####QMAKE
+
 `QMAKE_LFLAGS_RELEASE += -static -static-libgcc`
+
+#####CMAKE
+
+`target_link_libraries(ProjectName PUBLIC "-static")`
